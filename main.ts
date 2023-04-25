@@ -1,18 +1,115 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    
     click += -1
     if (click == 1) {
-        basic.showString("a")
-        basic.pause(2000)
+        basic.showString("A")
+        basic.pause(1000)
         basic.clearScreen()
     } else if (click == 2) {
-        basic.showString("b")
-        basic.pause(2000)
+        basic.showString("B")
+        basic.pause(1000)
         basic.clearScreen()
-    } else {
-    	
+    } else if (click == 3) {
+        basic.showString("C")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 4) {
+        basic.showString("D")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 5) {
+        basic.showString("E")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 6) {
+        basic.showString("F")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 7) {
+        basic.showString("G")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 8) {
+        basic.showString("H")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 9) {
+        basic.showString("I")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 10) {
+        basic.showString("J")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 11) {
+        basic.showString("K")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 12) {
+        basic.showString("L")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 13) {
+        basic.showString("M")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 14) {
+        basic.showString("N")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 15) {
+        basic.showString("O")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 16) {
+        basic.showString("P")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 17) {
+        basic.showString("Q")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 18) {
+        basic.showString("R")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 19) {
+        basic.showString("S")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 20) {
+        basic.showString("T")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 21) {
+        basic.showString("U")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 22) {
+        basic.showString("V")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 23) {
+        basic.showString("W")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 24) {
+        basic.showString("X")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 25) {
+        basic.showString("Y")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 26) {
+        basic.showString("Z")
+        basic.pause(1000)
+        basic.clearScreen()
     }
+    
 })
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
+    
     if (click == 1) {
         a += 1
     } else if (click == 2) {
@@ -66,16 +163,117 @@ input.onButtonPressed(Button.AB, function () {
     } else if (click == 26) {
         z += 1
     }
+    
 })
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
+    
     click += 1
     if (click == 1) {
-        basic.showString("a")
-        basic.pause(2000)
+        basic.showString("A")
+        basic.pause(1000)
         basic.clearScreen()
-    } else {
-    	
+    } else if (click == 2) {
+        basic.showString("B")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 3) {
+        basic.showString("C")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 4) {
+        basic.showString("D")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 5) {
+        basic.showString("E")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 6) {
+        basic.showString("F")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 7) {
+        basic.showString("G")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 8) {
+        basic.showString("H")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 9) {
+        basic.showString("I")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 10) {
+        basic.showString("J")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 11) {
+        basic.showString("K")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 12) {
+        basic.showString("L")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 13) {
+        basic.showString("M")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 14) {
+        basic.showString("N")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 15) {
+        basic.showString("O")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 16) {
+        basic.showString("P")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 17) {
+        basic.showString("Q")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 18) {
+        basic.showString("R")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 19) {
+        basic.showString("S")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 20) {
+        basic.showString("T")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 21) {
+        basic.showString("U")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 22) {
+        basic.showString("V")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 23) {
+        basic.showString("W")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 24) {
+        basic.showString("X")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 25) {
+        basic.showString("Y")
+        basic.pause(1000)
+        basic.clearScreen()
+    } else if (click == 26) {
+        basic.showString("Z")
+        basic.pause(1000)
+        basic.clearScreen()
     }
+    
 })
 let z = 0
 let y = 0
@@ -105,7 +303,8 @@ let b = 0
 let a = 0
 let click = 0
 click = 0
-basic.forever(function () {
+basic.forever(function on_forever() {
+    
     if (a == 1) {
         basic.showString("Apple")
         basic.pause(1000)
@@ -218,4 +417,5 @@ basic.forever(function () {
         basic.clearScreen()
         z += -1
     }
+    
 })

@@ -2,15 +2,109 @@ def on_button_pressed_a():
     global click
     click += -1
     if click == 1:
-        basic.show_string("a")
-        basic.pause(2000)
+        basic.show_string("A")
+        basic.pause(1000)
         basic.clear_screen()
     elif click == 2:
-        basic.show_string("b")
-        basic.pause(2000)
+        basic.show_string("B")
+        basic.pause(1000)
         basic.clear_screen()
-    else:
-        pass
+    elif click == 3:
+        basic.show_string("C")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 4:
+        basic.show_string("D")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 5:
+        basic.show_string("E")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 6:
+        basic.show_string("F")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 7:
+        basic.show_string("G")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 8:
+        basic.show_string("H")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 9:
+        basic.show_string("I")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 10:
+        basic.show_string("J")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 11:
+        basic.show_string("K")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 12:
+        basic.show_string("L")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 13:
+        basic.show_string("M")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 14:
+        basic.show_string("N")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 15:
+        basic.show_string("O")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 16:
+        basic.show_string("P")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 17:
+        basic.show_string("Q")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 18:
+        basic.show_string("R")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 19:
+        basic.show_string("S")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 20:
+        basic.show_string("T")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 21:
+        basic.show_string("U")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 22:
+        basic.show_string("V")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 23:
+        basic.show_string("W")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 24:
+        basic.show_string("X")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 25:
+        basic.show_string("Y")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 26:
+        basic.show_string("Z")
+        basic.pause(1000)
+        basic.clear_screen()
 input.on_button_pressed(Button.A, on_button_pressed_a)
 
 def on_button_pressed_ab():
@@ -73,11 +167,109 @@ def on_button_pressed_b():
     global click
     click += 1
     if click == 1:
-        basic.show_string("a")
-        basic.pause(2000)
+        basic.show_string("A")
+        basic.pause(1000)
         basic.clear_screen()
-    else:
-        pass
+    elif click == 2:
+        basic.show_string("B")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 3:
+        basic.show_string("C")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 4:
+        basic.show_string("D")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 5:
+        basic.show_string("E")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 6:
+        basic.show_string("F")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 7:
+        basic.show_string("G")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 8:
+        basic.show_string("H")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 9:
+        basic.show_string("I")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 10:
+        basic.show_string("J")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 11:
+        basic.show_string("K")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 12:
+        basic.show_string("L")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 13:
+        basic.show_string("M")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 14:
+        basic.show_string("N")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 15:
+        basic.show_string("O")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 16:
+        basic.show_string("P")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 17:
+        basic.show_string("Q")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 18:
+        basic.show_string("R")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 19:
+        basic.show_string("S")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 20:
+        basic.show_string("T")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 21:
+        basic.show_string("U")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 22:
+        basic.show_string("V")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 23:
+        basic.show_string("W")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 24:
+        basic.show_string("X")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 25:
+        basic.show_string("Y")
+        basic.pause(1000)
+        basic.clear_screen()
+    elif click == 26:
+        basic.show_string("Z")
+        basic.pause(1000)
+        basic.clear_screen()
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
 z = 0
@@ -117,26 +309,32 @@ def on_forever():
         basic.clear_screen()
         a += -1
     elif b == 1:
+        basic.show_string("Butterfly")
         basic.pause(1000)
         basic.clear_screen()
         b += -1
     elif c == 1:
+        basic.show_string("Cat")
         basic.pause(1000)
         basic.clear_screen()
         c += -1
     elif d == 1:
+        basic.show_string("Dog")
         basic.pause(1000)
         basic.clear_screen()
         d += -1
     elif e == 1:
+        basic.show_string("Elephant")
         basic.pause(1000)
         basic.clear_screen()
         e += -1
     elif f == 6:
+        basic.show_string("Friend")
         basic.pause(1000)
         basic.clear_screen()
         f += -1
     elif g == 7:
+        basic.show_string("Friend")
         basic.pause(1000)
         basic.clear_screen()
         g += -1
