@@ -1,6 +1,4 @@
-input.onButtonPressed(Button.A, function on_button_pressed_a() {
-    
-    click += -1
+input.onButtonPressed(Button.A, function () {
     if (click == 1) {
         basic.showString("A")
         basic.pause(1000)
@@ -106,10 +104,12 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
         basic.pause(1000)
         basic.clearScreen()
     }
-    
+    click += -1
 })
-input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
-    
+input.onGesture(Gesture.Shake, function () {
+    basic.clearScreen()
+})
+input.onButtonPressed(Button.AB, function () {
     if (click == 1) {
         a += 1
     } else if (click == 2) {
@@ -163,10 +163,8 @@ input.onButtonPressed(Button.AB, function on_button_pressed_ab() {
     } else if (click == 26) {
         z += 1
     }
-    
 })
-input.onButtonPressed(Button.B, function on_button_pressed_b() {
-    
+input.onButtonPressed(Button.B, function () {
     click += 1
     if (click == 1) {
         basic.showString("A")
@@ -273,7 +271,6 @@ input.onButtonPressed(Button.B, function on_button_pressed_b() {
         basic.pause(1000)
         basic.clearScreen()
     }
-    
 })
 let z = 0
 let y = 0
@@ -303,8 +300,7 @@ let b = 0
 let a = 0
 let click = 0
 click = 0
-basic.forever(function on_forever() {
-    
+basic.forever(function () {
     if (a == 1) {
         basic.showString("Apple")
         basic.pause(1000)
@@ -336,86 +332,104 @@ basic.forever(function on_forever() {
         basic.clearScreen()
         f += -1
     } else if (g == 7) {
-        basic.showString("Friend")
+        basic.showString("General")
         basic.pause(1000)
         basic.clearScreen()
         g += -1
     } else if (h == 8) {
+        basic.showString("Hat")
         basic.pause(1000)
         basic.clearScreen()
         h += -1
     } else if (i == 9) {
+        basic.showString("Ink")
         basic.pause(1000)
         basic.clearScreen()
         i += -1
     } else if (j == 10) {
+        basic.showString("Jeans")
         basic.pause(1000)
         basic.clearScreen()
         j += -1
     } else if (k == 11) {
+        basic.showString("Kite")
         basic.pause(1000)
         basic.clearScreen()
         k += -1
     } else if (l == 12) {
+        basic.showString("Lead")
         basic.pause(1000)
         basic.clearScreen()
         l += -1
     } else if (m == 13) {
+        basic.showString("Many")
         basic.pause(1000)
         basic.clearScreen()
         m += -1
     } else if (n == 14) {
+        basic.showString("No")
         basic.pause(1000)
         basic.clearScreen()
         n += -1
     } else if (o == 15) {
+        basic.showString("On")
         basic.pause(1000)
         basic.clearScreen()
         o += -1
     } else if (p == 16) {
+        basic.showString("Pen")
         basic.pause(1000)
         basic.clearScreen()
         p += -1
     } else if (q == 17) {
+        basic.showString("Quiz")
         basic.pause(1000)
         basic.clearScreen()
         q += -1
     } else if (r == 18) {
+        basic.showString("Rope")
         basic.pause(1000)
         basic.clearScreen()
         r += -1
     } else if (s == 19) {
+        basic.showString("Super")
         basic.pause(1000)
         basic.clearScreen()
         s += -1
     } else if (t == 20) {
+        basic.showString("Try")
         basic.pause(1000)
         basic.clearScreen()
         t += -1
     } else if (u == 21) {
+        basic.showString("Union")
         basic.pause(1000)
         basic.clearScreen()
         u += -1
     } else if (v == 22) {
+        basic.showString("Vet")
         basic.pause(1000)
         basic.clearScreen()
         v += -1
     } else if (w == 23) {
+        basic.showString("Water")
         basic.pause(1000)
         basic.clearScreen()
         w += -1
     } else if (x == 24) {
+        basic.showString("")
         basic.pause(1000)
         basic.clearScreen()
         x += -1
     } else if (y == 25) {
+        basic.showString("")
         basic.pause(1000)
         basic.clearScreen()
         y += -1
     } else if (z == 26) {
+        basic.showString("Zoo")
         basic.pause(1000)
         basic.clearScreen()
         z += -1
     }
-    
 })
