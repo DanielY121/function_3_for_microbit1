@@ -207,12 +207,12 @@ basic.forever(function () {
         basic.clearScreen()
         w += -1
     } else if (x == 24) {
-        basic.showString("")
+        basic.showString("Xylophone")
         basic.pause(1000)
         basic.clearScreen()
         x += -1
     } else if (y == 25) {
-        basic.showString("")
+        basic.showString("Yogurt")
         basic.pause(1000)
         basic.clearScreen()
         y += -1
