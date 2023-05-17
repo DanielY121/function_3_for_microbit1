@@ -5,6 +5,8 @@ input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
 })
 input.onButtonPressed(Button.AB, function () {
+    // you can change it into different kind of words base on variables of alphabet's value
+    // also you can remove -1 from the program
     if (click == 1) {
         a += 1
     } else if (click == 2) {
@@ -57,6 +59,36 @@ input.onButtonPressed(Button.AB, function () {
         y += 1
     } else if (click == 26) {
         z += 1
+    } else if (click == 27) {
+        a = 0
+        click = 1
+        b = 0
+        c = 0
+        d = 0
+        e = 0
+        f = 0
+        g = 0
+        h = 0
+        i = 0
+        j = 0
+        k = 0
+        l = 0
+        m = 0
+        n = 0
+        o = 0
+        p = 0
+        q = 0
+        r = 0
+        s = 0
+        t = 0
+        u = 0
+        v = 0
+        w = 0
+        x = 0
+        y = 0
+        z = 0
+    } else if (click == -1) {
+        click = 1
     }
 })
 input.onButtonPressed(Button.B, function () {
@@ -116,82 +148,82 @@ basic.forever(function () {
         basic.pause(1000)
         basic.clearScreen()
         e += -1
-    } else if (f == 6) {
+    } else if (f == 1) {
         basic.showString("Foxtrot")
         basic.pause(1000)
         basic.clearScreen()
         f += -1
-    } else if (g == 7) {
+    } else if (g == 1) {
         basic.showString("Golf")
         basic.pause(1000)
         basic.clearScreen()
         g += -1
-    } else if (h == 8) {
+    } else if (h == 1) {
         basic.showString("Hotel")
         basic.pause(1000)
         basic.clearScreen()
         h += -1
-    } else if (i == 9) {
+    } else if (i == 1) {
         basic.showString("India")
         basic.pause(1000)
         basic.clearScreen()
         i += -1
-    } else if (j == 10) {
+    } else if (j == 1) {
         basic.showString("Juliett")
         basic.pause(1000)
         basic.clearScreen()
         j += -1
-    } else if (k == 11) {
+    } else if (k == 1) {
         basic.showString("Kilo")
         basic.pause(1000)
         basic.clearScreen()
         k += -1
-    } else if (l == 12) {
+    } else if (l == 1) {
         basic.showString("Lima")
         basic.pause(1000)
         basic.clearScreen()
         l += -1
-    } else if (m == 13) {
+    } else if (m == 1) {
         basic.showString("Mike")
         basic.pause(1000)
         basic.clearScreen()
         m += -1
-    } else if (n == 14) {
+    } else if (n == 1) {
         basic.showString("November")
         basic.pause(1000)
         basic.clearScreen()
         n += -1
-    } else if (o == 15) {
+    } else if (o == 1) {
         basic.showString("Oscar")
         basic.pause(1000)
         basic.clearScreen()
         o += -1
-    } else if (p == 16) {
+    } else if (p == 1) {
         basic.showString("Papa")
         basic.pause(1000)
         basic.clearScreen()
         p += -1
-    } else if (q == 17) {
+    } else if (q == 1) {
         basic.showString("Quebec")
         basic.pause(1000)
         basic.clearScreen()
         q += -1
-    } else if (r == 18) {
+    } else if (r == 1) {
         basic.showString("Romeo")
         basic.pause(1000)
         basic.clearScreen()
         r += -1
-    } else if (s == 19) {
+    } else if (s == 1) {
         basic.showString("Sierra")
         basic.pause(1000)
         basic.clearScreen()
         s += -1
-    } else if (t == 20) {
+    } else if (t == 1) {
         basic.showString("Tango")
         basic.pause(1000)
         basic.clearScreen()
         t += -1
-    } else if (u == 21) {
+    } else if (u == 1) {
         basic.showString("Uniform")
         basic.pause(1000)
         basic.clearScreen()
