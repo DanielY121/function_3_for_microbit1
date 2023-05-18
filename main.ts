@@ -8,59 +8,59 @@ input.onButtonPressed(Button.AB, function () {
     // you can change it into different kind of words base on variables of alphabet's value
     // also you can remove -1 from the program
     if (click == 1) {
-        a += 1
+        a = 1
     } else if (click == 2) {
-        b += 1
+        b = 1
     } else if (click == 3) {
-        c += 1
+        c = 1
     } else if (click == 4) {
-        d += 1
+        d = 1
     } else if (click == 5) {
-        e += 1
+        e = 1
     } else if (click == 6) {
-        f += 1
+        f = 1
     } else if (click == 7) {
-        g += 1
+        g = 1
     } else if (click == 8) {
-        h += 1
+        h = 1
     } else if (click == 9) {
-        i += 1
+        i = 1
     } else if (click == 10) {
-        j += 1
+        j = 1
     } else if (click == 11) {
-        k += 1
+        k = 1
     } else if (click == 12) {
-        l += 1
+        l = 1
     } else if (click == 13) {
-        m += 1
+        m = 1
     } else if (click == 14) {
-        n += 1
+        n = 1
     } else if (click == 15) {
-        o += 1
+        o = 1
     } else if (click == 16) {
-        p += 1
+        p = 1
     } else if (click == 17) {
-        q += 1
+        q = 1
     } else if (click == 18) {
-        r += 1
+        r = 1
     } else if (click == 19) {
-        s += 1
+        s = 1
     } else if (click == 20) {
-        t += 1
+        t = 1
     } else if (click == 21) {
-        u += 1
+        u = 1
     } else if (click == 22) {
-        v += 1
+        v = 1
     } else if (click == 23) {
-        w += 1
+        w = 1
     } else if (click == 24) {
-        x += 1
+        x = 1
     } else if (click == 25) {
-        y += 1
+        y = 1
     } else if (click == 26) {
-        z += 1
+        z = 1
     } else if (click == 27) {
-        a = 0
+        a = 1
         click = 1
         b = 0
         c = 0
