@@ -60,7 +60,7 @@ input.onButtonPressed(Button.AB, function () {
     } else if (click == 26) {
         z = 1
     } else if (click == 27) {
-        a = 1
+        a = 0
         click = 1
         b = 0
         c = 0
